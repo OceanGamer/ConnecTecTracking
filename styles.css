@@ -1,0 +1,173 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background-color: aliceblue;
+}
+
+.topnav{
+    width: 100%;
+    background-color: #191919;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 240px;
+    height: 80px;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.info{
+    width: 800px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.TopInfo{
+    width: 100%;
+    display: flex;
+}
+
+.icon{
+    background-color: #1688ee;
+    border-radius: 15px;
+    width: 80px;
+    height: 80px;
+}
+
+.icon>img{
+    width: 100%;
+    height: 100%;
+}
+
+.dataTop{
+    width: 400px;
+    margin-left: 30px;
+}
+
+.dataTop>h2{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.tracking{
+    width: 220px;  
+}
+
+.tracking>h2{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.tracking>p{
+    margin: 0;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.Objetivo{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+.divide{
+    width: 30%;
+    font-weight: 500;
+}
+
+.Travel{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.traveltotal{
+    width: 100%;
+    height: 20px;
+    background-color: #e7f2fc;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.traveltotal>div{
+    width: 10%;
+    height: 100%;
+    background-color: #1688ee;
+}
+
+.traveldestinations{
+    width: 100%;
+    display: flex;
+    font-weight: 400;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.point{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #0d385e;
+    margin-left: 85%;
+}
+
+.actual{
+    color: #1688ee;
+}
+
+.updates{
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+.updateitem{
+    display: flex;
+    width: 100%;
+    font-weight: 500;
+}
+
+.historyHR{
+    width: 5px;
+    height: 150px;
+    background-color: #e7f2fc;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigcircle{
+    width: 30px;
+    height: 30px;
+    background-color: #0d385e;
+    border-radius: 50%;
+    transform: translateX(-14px);
+}
+
+.nocircle{
+    width: 15px;
+    height: 15px;
+    background-color: #444444;
+    border-radius: 50%;
+    transform: translateX(-6px);
+}
