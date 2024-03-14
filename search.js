@@ -85,6 +85,11 @@ let shipments = [
         Date: '13 de Marzo del 2024',
         Ubication: 'China continental'
       },
+      {
+        Note: 'Salio del país de origen',
+        Date: '14 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
     ]
   },
   { // Stefany5
