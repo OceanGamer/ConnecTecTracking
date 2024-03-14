@@ -108,6 +108,16 @@ let shipments = [
         Date: '13 de Marzo del 2024',
         Ubication: 'China continental'
       },
+      {
+        Note: '[Shatian Town] Saliente en centro de clasificación',
+        Date: '13 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
+      {
+        Note: 'Llegó al centro de transporte de salida',
+        Date: '13 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
     ]
   },
 ];
