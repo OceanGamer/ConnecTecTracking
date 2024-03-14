@@ -21,14 +21,14 @@ const parameter = parts[1];
 let shipments = [
   { // Cesar4
     PhotoName: 'truc.svg',
-    LatestStatus: "En Vuelo",
+    LatestStatus: "En transito a Miami",
     Created: "3/10/2024",
     TrackingUSACHINA: " UUSC000000949917",
     TrackingUSAVZLA: " No disponible",
     Origin: "China continental",
     Destination: "Guarenas, Estado Miranda, Venezuela",
     DeliveryDate: "Marzo 18 - Marzo 29",
-    UbicationPosition: 2,
+    UbicationPosition: 4,
     TrackingUpdates: [
       {
         Note: 'Información de envío recibida por el almacén electrónicamente',
@@ -89,6 +89,11 @@ let shipments = [
         Note: 'Salio del país de origen',
         Date: '14 de Marzo del 2024',
         Ubication: 'China continental'
+      },
+      {
+        Note: 'Recibido por la empresa local de reparto',
+        Date: '14 de Marzo del 2024',
+        Ubication: 'Estados Unidos'
       },
     ]
   },
