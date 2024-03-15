@@ -21,7 +21,7 @@ const parameter = parts[1];
 let shipments = [
   { // Cesar4
     PhotoName: 'descarga.svg',
-    LatestStatus: "En transito a Miami",
+    LatestStatus: "En almacen de Zoom",
     Created: "3/10/2024",
     TrackingUSACHINA: " UUSC000000949917",
     TrackingUSAVZLA: " No disponible",
