@@ -20,7 +20,7 @@ const parameter = parts[1];
 //1 China, 2 ExitChina, 3 ArriveUSA, 4 TransitMiami, 5 InZoom, 6 ExitUSA, 7 ArriveVnzla, 8 InVenezuela, 9 InGuarenas
 let shipments = [
   { // Cesar4
-    PhotoName: 'truc.svg',
+    PhotoName: 'descarga.svg',
     LatestStatus: "En transito a Miami",
     Created: "3/10/2024",
     TrackingUSACHINA: " UUSC000000949917",
@@ -28,7 +28,7 @@ let shipments = [
     Origin: "China continental",
     Destination: "Guarenas, Estado Miranda, Venezuela",
     DeliveryDate: "Marzo 18 - Marzo 29",
-    UbicationPosition: 4,
+    UbicationPosition: 5,
     TrackingUpdates: [
       {
         Note: 'Información de envío recibida por el almacén electrónicamente',
@@ -95,6 +95,16 @@ let shipments = [
         Date: '14 de Marzo del 2024',
         Ubication: 'Estados Unidos'
       },
+      {
+        Note: '[UniUni] Llegó al centro de entrega local',
+        Date: '15 de Marzo del 2024',
+        Ubication: 'Estados Unidos'
+      },
+      {
+        Note: 'Llegó al almacen de Zoom Miami',
+        Date: '15 de Marzo del 2024',
+        Ubication: 'Estados Unidos'
+      },
     ]
   },
   { // Stefany5
@@ -106,7 +116,7 @@ let shipments = [
     Origin: "China continental",
     Destination: "Guarenas, Estado Miranda, Venezuela",
     DeliveryDate: "Abril 1 - Abril 12",
-    UbicationPosition: 1,
+    UbicationPosition: 2,
     TrackingUpdates: [
       {
         Note: 'Aceptado por el transportista',
@@ -126,6 +136,31 @@ let shipments = [
       {
         Note: 'Llegó al centro de transporte de salida',
         Date: '13 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
+      {
+        Note: 'Se inició el despacho de aduanas de exportación',
+        Date: '15 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
+      {
+        Note: 'Despacho de aduana de exportación completo',
+        Date: '15 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
+      {
+        Note: 'Despacho de aduana de exportación completo',
+        Date: '15 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
+      {
+        Note: 'Saliendo desde el país/región de salida',
+        Date: '15 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
+      {
+        Note: 'Salió del país/región de salida',
+        Date: '15 de Marzo del 2024',
         Ubication: 'China continental'
       },
     ]
