@@ -109,7 +109,7 @@ let shipments = [
   },
   { // Stefany5
     PhotoName: 'descarga.svg',
-    LatestStatus: "En centro de clasificacion",
+    LatestStatus: "En vuelo",
     Created: "3/13/2024",
     TrackingUSACHINA: " UUSC000000967921",
     TrackingUSAVZLA: " No disponible",
