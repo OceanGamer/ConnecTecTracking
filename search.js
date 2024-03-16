@@ -170,6 +170,44 @@ let shipments = [
       },
     ]
   },
+  { // Vicky-Coromoto
+    PhotoName: 'truc.svg',
+    LatestStatus: "En camino",
+    Created: "3/13/2024",
+    TrackingUSACHINA: " UUSC000000989917",
+    TrackingUSAVZLA: " No disponible",
+    Origin: "China continental",
+    Destination: "Guarenas, Estado Miranda, Venezuela",
+    DeliveryDate: "Marzo 20 - Abril 2",
+    UbicationPosition: 1,
+    TrackingUpdates: [
+      {
+        Note: 'Información de envío recibida por el almacén electrónicamente',
+        Date: '13 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
+      {
+        Note: 'Paquete listo para envío desde almacén',
+        Date: '15 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
+      {
+        Note: 'Paquete enviado desde el almacén',
+        Date: '16 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
+      {
+        Note: 'Recibido por empresa de logística',
+        Date: '16 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
+      {
+        Note: '[Ciudad de Mayong] Procesandose en el centro de clasificacion',
+        Date: '16 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
+    ]
+  },
 ];
 
 if (parts[1] >= 0 && parts[1] <= shipments.length - 1) {
