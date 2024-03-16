@@ -206,6 +206,11 @@ let shipments = [
         Date: '16 de Marzo del 2024',
         Ubication: 'China continental'
       },
+      {
+        Note: '[Ciudad de Mayong] Salio del centro de clasificacion',
+        Date: '16 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
     ]
   },
 ];
