@@ -105,10 +105,15 @@ let shipments = [
         Date: '15 de Marzo del 2024',
         Ubication: 'Estados Unidos'
       },
+      {
+        Note: 'A la espera de ser procesado por Zoom Miami',
+        Date: '17 de Marzo del 2024',
+        Ubication: 'Estados Unidos'
+      },
     ]
   },
   { // Stefany5
-    PhotoName: 'truc.svg',
+    PhotoName: 'descarga.svg',
     LatestStatus: "En la oficina de importacion",
     Created: "3/13/2024",
     TrackingUSACHINA: " UUSC000000967921",
@@ -168,6 +173,16 @@ let shipments = [
         Date: '16 de Marzo del 2024',
         Ubication: 'Estados Unidos'
       },
+      {
+        Note: 'Importacion completada',
+        Date: '17 de Marzo del 2024',
+        Ubication: 'Estados Unidos'
+      },
+      {
+        Note: 'Saliendo de aduanas',
+        Date: '17 de Marzo del 2024',
+        Ubication: 'Estados Unidos'
+      },
     ]
   },
   { // Vicky-Coromoto
@@ -214,6 +229,11 @@ let shipments = [
       {
         Note: 'Llegó al centro de transporte de salida',
         Date: '16 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
+      {
+        Note: 'Exportación exitosa',
+        Date: '17 de Marzo del 2024',
         Ubication: 'China continental'
       },
     ]
