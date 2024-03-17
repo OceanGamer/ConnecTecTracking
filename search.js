@@ -113,15 +113,15 @@ let shipments = [
     ]
   },
   { // Stefany5
-    PhotoName: 'descarga.svg',
-    LatestStatus: "En la oficina de importacion",
+    PhotoName: 'truc.svg',
+    LatestStatus: "De camino a Miami",
     Created: "3/13/2024",
     TrackingUSACHINA: " UUSC000000967921",
     TrackingUSAVZLA: " No disponible",
     Origin: "China continental",
     Destination: "Guarenas, Estado Miranda, Venezuela",
     DeliveryDate: "Abril 1 - Abril 12",
-    UbicationPosition: 3,
+    UbicationPosition: 4,
     TrackingUpdates: [
       {
         Note: 'Aceptado por el transportista',
@@ -180,6 +180,11 @@ let shipments = [
       },
       {
         Note: 'Saliendo de aduanas',
+        Date: '17 de Marzo del 2024',
+        Ubication: 'Estados Unidos'
+      },
+      {
+        Note: '[UniUni] De camino a Miami',
         Date: '17 de Marzo del 2024',
         Ubication: 'Estados Unidos'
       },
