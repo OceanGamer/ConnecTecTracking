@@ -241,6 +241,16 @@ let shipments = [
         Date: '17 de Marzo del 2024',
         Ubication: 'China continental'
       },
+      {
+        Note: 'Saliendo del pais de salida',
+        Date: '17 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
+        {
+        Note: 'Salio del pais de salida',
+        Date: '18 de Marzo del 2024',
+        Ubication: 'China continental'
+      },
     ]
   },
 ];
