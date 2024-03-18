@@ -24,7 +24,7 @@ let shipments = [
     LatestStatus: "En almacen de Zoom",
     Created: "3/10/2024",
     TrackingUSACHINA: " UUSC000000949917",
-    TrackingUSAVZLA: " No disponible",
+    TrackingUSAVZLA: " 1309546872",
     Origin: "China continental",
     Destination: "Guarenas, Estado Miranda, Venezuela",
     DeliveryDate: "Marzo 18 - Marzo 29",
@@ -108,6 +108,11 @@ let shipments = [
       {
         Note: 'A la espera de ser procesado por Zoom Miami',
         Date: '17 de Marzo del 2024',
+        Ubication: 'Estados Unidos'
+      },
+      {
+        Note: 'Procesado por Zoom Miami',
+        Date: '18 de Marzo del 2024',
         Ubication: 'Estados Unidos'
       },
     ]
