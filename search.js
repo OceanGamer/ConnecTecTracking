@@ -20,15 +20,15 @@ const parameter = parts[1];
 //1 China, 2 ExitChina, 3 ArriveUSA, 4 TransitMiami, 5 InZoom, 6 ExitUSA, 7 ArriveVnzla, 8 InVenezuela, 9 InGuarenas
 let shipments = [
   { // Cesar4
-    PhotoName: 'descarga.svg',
-    LatestStatus: "En almacen de Zoom",
+    PhotoName: 'custom.svg',
+    LatestStatus: "En aduana venezolana",
     Created: "3/10/2024",
     TrackingUSACHINA: " UUSC000000949917",
     TrackingUSAVZLA: " 1309546872",
     Origin: "China continental",
     Destination: "Guarenas, Estado Miranda, Venezuela",
     DeliveryDate: "Marzo 18 - Marzo 29",
-    UbicationPosition: 5,
+    UbicationPosition: 7,
     TrackingUpdates: [
       {
         Note: 'Información de envío recibida por el almacén electrónicamente',
@@ -114,6 +114,11 @@ let shipments = [
         Note: 'Procesado por Zoom Miami',
         Date: '18 de Marzo del 2024',
         Ubication: 'Estados Unidos'
+      },
+      {
+        Note: 'En la aduana Venezolana',
+        Date: '25 de Marzo del 2024',
+        Ubication: 'Venezuela'
       },
     ]
   },
@@ -202,14 +207,14 @@ let shipments = [
   },
   { // Vicky-Coromoto
     PhotoName: 'customs.svg',
-    LatestStatus: "En aduanas",
+    LatestStatus: "En aduana Venezolana",
     Created: "3/13/2024",
     TrackingUSACHINA: " UUSC000000989917",
-    TrackingUSAVZLA: " No disponible",
+    TrackingUSAVZLA: " 1309546872",
     Origin: "China continental",
     Destination: "Guarenas, Estado Miranda, Venezuela",
     DeliveryDate: "Marzo 20 - Abril 2",
-    UbicationPosition: 3,
+    UbicationPosition: 7,
     TrackingUpdates: [
       {
         Note: 'Información de envío recibida por el almacén electrónicamente',
@@ -265,6 +270,11 @@ let shipments = [
         Note: 'Llego a la oficina de importacion',
         Date: '19 de Marzo del 2024',
         Ubication: 'Estados Undios'
+      },
+      {
+        Note: 'En la aduana Venezolana',
+        Date: '25 de Marzo del 2024',
+        Ubication: 'Venezuela'
       },
     ]
   },
