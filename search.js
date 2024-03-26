@@ -20,8 +20,8 @@ const parameter = parts[1];
 //1 China, 2 ExitChina, 3 ArriveUSA, 4 TransitMiami, 5 InZoom, 6 ExitUSA, 7 ArriveVnzla, 8 InVenezuela, 9 InGuarenas
 let shipments = [
   { // Cesar4
-    PhotoName: 'custom.svg',
-    LatestStatus: "En aduana venezolana",
+    PhotoName: 'truc.svg',
+    LatestStatus: "En transito a Guarenas",
     Created: "3/10/2024",
     TrackingUSACHINA: " UUSC000000949917",
     TrackingUSAVZLA: " 1309546872",
@@ -211,8 +211,8 @@ let shipments = [
     ]
   },
   { // Vicky-Coromoto
-    PhotoName: 'customs.svg',
-    LatestStatus: "En aduana Venezolana",
+    PhotoName: 'truc.svg',
+    LatestStatus: "En transito a Guarenas",
     Created: "3/13/2024",
     TrackingUSACHINA: " UUSC000000989917",
     TrackingUSAVZLA: " 1309546872",
