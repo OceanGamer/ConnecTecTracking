@@ -28,7 +28,7 @@ let shipments = [
     Origin: "China continental",
     Destination: "Guarenas, Estado Miranda, Venezuela",
     DeliveryDate: "Marzo 18 - Marzo 29",
-    UbicationPosition: 7,
+    UbicationPosition: 8,
     TrackingUpdates: [
       {
         Note: 'Información de envío recibida por el almacén electrónicamente',
@@ -118,6 +118,11 @@ let shipments = [
       {
         Note: 'En la aduana Venezolana',
         Date: '25 de Marzo del 2024',
+        Ubication: 'Venezuela'
+      },
+      {
+        Note: 'Envio en Venezuela, esperando por despacho a Guarenas',
+        Date: '26 de Marzo del 2024',
         Ubication: 'Venezuela'
       },
     ]
@@ -214,7 +219,7 @@ let shipments = [
     Origin: "China continental",
     Destination: "Guarenas, Estado Miranda, Venezuela",
     DeliveryDate: "Marzo 20 - Abril 2",
-    UbicationPosition: 7,
+    UbicationPosition: 8,
     TrackingUpdates: [
       {
         Note: 'Información de envío recibida por el almacén electrónicamente',
@@ -274,6 +279,11 @@ let shipments = [
       {
         Note: 'En la aduana Venezolana',
         Date: '25 de Marzo del 2024',
+        Ubication: 'Venezuela'
+      },
+      {
+        Note: 'Envio en Venezuela, esperando por despacho a Guarenas',
+        Date: '26 de Marzo del 2024',
         Ubication: 'Venezuela'
       },
     ]
