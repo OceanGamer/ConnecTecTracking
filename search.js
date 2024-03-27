@@ -306,6 +306,11 @@ let shipments = [
         Date: '27 de Marzo del 2024',
         Ubication: 'Venezuela'
       },
+      {
+        Note: 'Entregado',
+        Date: '27 de Marzo del 2024',
+        Ubication: 'Venezuela'
+      },
     ]
   },
 ];
