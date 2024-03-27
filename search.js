@@ -21,14 +21,14 @@ const parameter = parts[1];
 let shipments = [
   { // Cesar4
     PhotoName: 'truc.svg',
-    LatestStatus: "En transito a Guarenas",
+    LatestStatus: "Despachandose al cliente final",
     Created: "3/10/2024",
     TrackingUSACHINA: " UUSC000000949917",
     TrackingUSAVZLA: " 1309546872",
     Origin: "China continental",
     Destination: "Guarenas, Estado Miranda, Venezuela",
     DeliveryDate: "Marzo 18 - Marzo 29",
-    UbicationPosition: 8,
+    UbicationPosition: 9,
     TrackingUpdates: [
       {
         Note: 'Información de envío recibida por el almacén electrónicamente',
@@ -125,6 +125,16 @@ let shipments = [
         Date: '26 de Marzo del 2024',
         Ubication: 'Venezuela'
       },
+      {
+        Note: 'Envio en Guarenas',
+        Date: '27 de Marzo del 2024',
+        Ubication: 'Venezuela'
+      },
+      {
+        Note: 'Despachando al cliente final',
+        Date: '27 de Marzo del 2024',
+        Ubication: 'Venezuela'
+      },
     ]
   },
   { // Stefany5
@@ -212,7 +222,7 @@ let shipments = [
   },
   { // Vicky-Coromoto
     PhotoName: 'truc.svg',
-    LatestStatus: "En transito a Guarenas",
+    LatestStatus: "Despachandose",
     Created: "3/13/2024",
     TrackingUSACHINA: " UUSC000000989917",
     TrackingUSAVZLA: " 1309546872",
@@ -284,6 +294,11 @@ let shipments = [
       {
         Note: 'Envio en Venezuela, esperando por despacho a Guarenas',
         Date: '26 de Marzo del 2024',
+        Ubication: 'Venezuela'
+      },
+      {
+        Note: 'Paquete en Guarenas despachandose al destino final',
+        Date: '27 de Marzo del 2024',
         Ubication: 'Venezuela'
       },
     ]
