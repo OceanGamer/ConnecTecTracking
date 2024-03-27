@@ -21,7 +21,7 @@ const parameter = parts[1];
 let shipments = [
   { // Cesar4
     PhotoName: 'truc.svg',
-    LatestStatus: "Despachandose al cliente final",
+    LatestStatus: "Entregado",
     Created: "3/10/2024",
     TrackingUSACHINA: " UUSC000000949917",
     TrackingUSAVZLA: " 1309546872",
@@ -132,6 +132,11 @@ let shipments = [
       },
       {
         Note: 'Despachando al cliente final',
+        Date: '27 de Marzo del 2024',
+        Ubication: 'Venezuela'
+      },
+      {
+        Note: 'Entregado',
         Date: '27 de Marzo del 2024',
         Ubication: 'Venezuela'
       },
